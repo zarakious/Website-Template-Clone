@@ -1,5 +1,5 @@
 # Website-Template-Clone
-This a website template clone using pure css html and javascript
+This a Wordpress template clone using pure css html and javascript
 - The website is https://betmar.de/ and it,s using elemetory to create components
 - the whole template was created using pure css and JS without the use of any library <br>
 
