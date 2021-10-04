@@ -1,0 +1,387 @@
+<html lang="de">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="kouki Zied">
+      <meta name="description" content=" Betmar.de Template cloning by kouki zied">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <link rel="icon" href='./Assets/favicon.png'>
+      <link rel="stylesheet" href="./style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+         />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+         rel="stylesheet"
+         />
+      <title>Betmar</title>
+   </head>
+   <body>
+      <section class="header">
+         <div id="header">
+            <div class="header-container">
+               <div id="contact-and-logo">
+                  <div id="contact">
+                     <div>Rufen Sie uns an</div>
+                     <div>+00(49)15024561</div>
+                  </div>
+                  <em class="fa fa-whatsapp"></em>
+               </div>
+               <div class="nav-right-side">
+                  <div id="mail" class="social-media-icon">
+                     <em class="fa fa-paper-plane" ></em>
+                     <a href="#">info@betonzaun.de</a>
+                  </div>
+                  <div id="phone-number" class="social-media-icon">
+                     <em class="fa fa-whatsapp"></em>
+                     <a href="#">0177 4835925</a>
+                  </div>
+                  <div id="facebook" class="social-media-icon">
+                     <em class="fa fa-facebook-f"></em>
+                     <a href="#">Facebook</a>
+                  </div>
+                  <div id="instagram" class="social-media-icon">
+                     <em class="fa fa-instagram"></em>
+                     <a href="#"> Instagram</a>
+                  </div>
+                  <button id="offer">Angebot anfragen</button>
+               </div>
+            </div>
+            <section id="main-navbar">
+               <div id="navigation" class="header-container">
+                  <a href="#">
+                  <img id="logo"  src="./Assets/imgs/betmar-logo.png" alt="betmar-logo" 
+                     /></a>
+                  <div id="links">
+                     <div id="drop-down-container">
+                        <div id="drop-down-header">
+                           <span>Betonzäune</span>
+                           <em class="fa fa-caret-down"></em>
+                        </div>
+                        <div id="dropdown" class="dropdown-content">
+                           <span><img src="./Assets/imgs/Menu/m1.jpeg" alt="Menu-Standard">
+                           <a href="#">Standard Serie</a>
+                           </span>
+                           <span>
+                           <img src="./Assets/imgs/Menu/m2.jpeg" alt="Menu-Premium">
+                           <a href="#">Premium Serie</a>
+                           </span>
+                           <span>
+                           <img src="./Assets/imgs/Menu/m3.jpeg" alt="Premium-plus">
+                           <a href="#">Premium Plus Serie</a>
+                           </span>
+                        </div>
+                     </div>
+                     <a href="#">Holz-beton</a>
+                     <a href="#">Tore</a>
+                     <a href="#">Referenzen</a>
+                     <a href="#">Montage</a>
+                     <a href="#">Über Betmar</a>
+                     <a href="#">Downloads</a>
+                     <div class="social">
+                        <div><em class="fa fa-facebook"></em></div>
+                        <div><em class="fa fa-instagram"></em></div>
+                     </div>
+                  </div>
+                  <a
+                     id="hamburger"
+                     class="icon"
+                     >
+                  <em class="fa fa-bars"></em>
+                  </a>
+                  <a
+                     id="close"
+                     class="hiddenIcon"
+                     >
+                  <em class="fa fa-times"></em>
+                  </a>
+               </div>
+            </section>
+         </div>
+      </section>
+      <!-- Main Slider -->
+      <section id="main-slider">
+         <div id="slider-wrapper">
+            <div class="overlay"></div>
+            <div id="home-container">
+               <div id="first-small-header">Betmar Betonzaum</div>
+               <h1>Referenzen</h1>
+               <p>Ausgewählte Projekte unserer zufriedenen Kunden</p>
+            </div>
+            <button id="play">
+            <em class="fa fa-play-circle"></em><span>Was unsere Kunden sagen</span>
+            </button>
+         </div>
+      </section>
+      <!-- Video Player  -->
+      <div id="video-player" class="video-wraper">
+         <div id="player-overlay"class="overlay"></div>
+         <button id="close-player"><em class="fa fa-times"></em></button>
+         <div id="player">
+            <video id="video" controls width="500px">
+               <source src="./Assets/videos/was-unseren-kunden-sagen.mp4"
+                  type="video/mp4">
+            </video>
+         </div>
+      </div>
+      <!-- Angebot -->
+      <div id="offer-contact" class="contact-us">
+         <div id="player-overlay"class="overlay"></div>
+         <div id="form-wrapper" class="form-wrapper">
+             <div class="modalHeader">
+            <h2>Nur noch ein Schritt zu Ihrem einzigartigen </h2>
+            <div id="close-contact" class="hide-contct-form"><em id="close-contact" class="fa fa-times"></em></div>
+        </div>
+            <span id="contact-sub-item">Betonzaunsystem</span>
+            <span>Hinterlassen Sie Ihre Kontaktdaten. Wir melden uns in Kürze bei Ihnen.</span>
+            <form action="" class="form">
+               <input type="text" id="name" name="name" placeholder="Name">
+               <input type="email" id="email" name="email" placeholder="E-Mail">
+               <input type="text" id="phone" name="phone" placeholder="Telefon">
+               <input type="text" id="zip" name="zip" placeholder="Postleitzahl">
+               <textarea placeholder="Erzählen Sie uns von Ihrem Projekt..."></textarea>   
+               <input type="file" id="myFile" name="filename">
+               <button class="btn-dark">Angebot anfragen</button>
+            </form>
+         </div>
+      </div>
+      <!-- Nav List for the Catalogue -->
+      <section id="catalogue-menu">
+         <div class="grid-container">
+            <ul class="catalogue-nav-list">
+               <li >Standard Serie</li>
+               <li>Premium Serie</li>
+               <li>Plus Serie</li>
+               <li>Holz-beton</li>
+            </ul>
+         </div>
+      </section>
+      <!-- Catalogue items -->
+      <section id="products-examples">
+         <div class="catalogue-items">
+            <div id='item-box-1' >
+               <span  class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="Betmare-Bestseller-Standard" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Bruchstein-mit-Rustikalbogen-XL-1-2-1.jpeg" alt="Bruchstein-mit-Rustikalbogen-XL-1-2-1" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Kantstein.jpeg" alt="Kantstein" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Standard-Felsstein-mit-Bogen-1.jpeg" alt="Standard-Felsstein-mit-Bogen-1" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Ziegelstein-1.jpeg" alt="Ziegelstein-1" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Ziegelstein-Neu-weiss2.jpeg" alt="Ziegelstein-Neu-weiss2" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+            </div>
+            <div id='item-box-2' >
+               <span class="card card1">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product-1" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <div class="card">
+                  <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product-2" />
+                  <span>Bruchsteil mit rustikal bogen</span>
+               </div>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product-3" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <div class="card">
+                  <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product-4" />
+                  <span>Bruchsteil mit rustikal bogen</span>
+               </div>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product-5" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <div class="card">
+                  <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product-6" />
+                  <span>Bruchsteil mit rustikal bogen</span>
+               </div>
+            </div>
+            <div id='item-box-3' >
+               <span class="card">
+               <img src="./Assets/imgs/Standard-Felsstein-mit-Bogen-1.jpeg" alt="product-standard" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <div class="card">
+                  <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product-n" />
+                  <span>Bruchsteil mit rustikal bogen</span>
+               </div>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+            </div>
+            <div id='item-box-4' >
+               <span class="card">
+               <img src="./Assets/imgs/Ziegelstein-Neu-weiss2.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+               <span class="card">
+               <img src="./Assets/imgs/Betmare-Bestseller-Standard.jpeg" alt="product" />
+               <span>Bruchsteil mit rustikal bogen</span>
+               </span>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!-- Customers FeedBack Slider -->
+      <section id="slider-feedback">
+         <div class="feedback-slider-container">
+            <div id="slider-title">Nehemen Sie Nicht uns beim wort</div>
+            <div id="nehmen">Sehen Sie was unsere kunden sagen</div>
+            <div id="parent" class="slider-container">
+               <div id="box1" class="slider-content">
+                  <span class="box-content">
+                  Von der Anfrage bis zum Ausführung ging alles super schnell.
+                  Rückfragen wurden kurzfristig beantwortet. Ausführung sehr
+                  ordentlich, sauber und schnell. Bin happy mit unserem Zaun! Daumen
+                  hoch für die Truppe....Kann man nur empfehlen.</span
+                     >
+                  <span class="box-author">Tim Muller</span>
+               </div>
+               <div id="box2" class="slider-content ">
+                  <span class="box-content">
+                  wollte kurz eine Rezension für Euch schreiben und hab mir grade die
+                  Feedbacks Eurer Kunden durchgelesen und "komischerweise" keine
+                  einzige negative Bewertung gefunden...aber ich weiß auch warum und
+                  die Erklärung ist so einfach wie kurz:</span
+                     >
+                  <span class="box-author">Slim Claas</span>
+               </div>
+               <div id="box3" class="slider-content active">
+                  <span class="box-content">
+                  Innerhalb von 3 Tagen wurden bei uns 58 m Betonzaun gesetzt. Vom
+                  ersten Gespräch mit Herrn Kirchhammer bis hin zur Ausführung der
+                  Arbeiten "lief" alles ohne Probleme. Trotz der teilweise widrigen
+                  Witterungsverhältnisse war das Team immer motiviert und freundlich.
+                  Selbst die etwas komplizierte Montage eines Tores wurde hervorragend
+                  durchgeführt.</span
+                     >
+                  <span class="box-author">Mike Robinson</span>
+               </div>
+               <div id="box4" class="slider-content">
+                  <span class="box-content">
+                  Die Mauer steht zu unserer vollsten Zufriedenheit. Von der ersten
+                  Kontakt bis zur Abnahme guter Kontakt. Es wurden bei der Planung
+                  seitens Betmar gute Tips gegeben. insgesamt ein sehr kompetentes
+                  Team. Die Firma ist zu empfehlen.</span
+                     >
+                  <span class="box-author">Maria du Pont</span>
+               </div>
+               <span class="slider-controls">  
+               <button id="previous" class="chevron"
+                  ><em class="fa fa-chevron-left"></em
+                  ></button>
+               <button id="next" class="chevron"
+                  ><em class="fa fa-chevron-right"></em
+                  ></button>
+               </span>
+            </div>
+         </div>
+      </section>
+   </body>
+   <!-- Footer -->
+   <footer id="footer">
+      <div class="footer-logos">
+         <div class="footer-sub-1">
+            <h3> Bereit für Ihr nächstes Projekt?</h3>
+            <button id ="apply" class="btn"> Jetzt Projekt starten</button>
+            <div class="overlay"></div>
+         </div>
+         <div class="footer-sub-2">
+            <div id = "" class="footer-sub-2-logo"><img src="./Assets/imgs/image-28.webp" alt=""></div>
+            <button id="apply-now" class="btn">Jetzt beraten lassen</button>
+            <div id="footer-sub-menu" class="subfooter">
+               <div>Betonzäune</div>
+               <a>Standar Serie</a>
+               <a>Premium Serie</a>
+               <a>Premium Plus Serie</a>
+               <a>Holz-Beton Serie</a>
+            </div>
+            <div id="menu-footer" class="subfooter">
+               <div>Menü</div>
+               <a href="#">refrenzen</a>
+               <a href="#">tore</a>
+               <a href="#">montage</a>
+               <a href="#">Uber betmar</a>
+               <a href="#">Beratung</a>
+            </div>
+            <div id="Anschrift-contact" class="subfooter">
+               <div>Anschrift</div>
+               <span>kattenstarsse 230</span>
+               <span>47475 KAMP-LINTFORT</span>
+               
+               <span>deutschland</span>
+            </div>
+            
+         </div>
+         </section>
+         <!-- Copyright -->
+         <section id="copyright">
+            <div class="footer-icons">
+               <div id="copyright-media">
+                  <div id="information-text">
+                     <span id="copyright-text">©️ Copyright 2020 Betmar Betonzaun GmbH & Co. KG</span>
+                     <span id="daten-impressum">
+                     <span>Datenschutz</span>
+                     <span>Impressum</span>
+                     </span>
+                  </div>
+               </div>
+               <div id="footer-social-media">
+                  <em class="fa fa-facebook-f"></em>
+                  <em class="fa fa-instagram"></em>  
+                  <em class="fa fa-whatsapp"></em>
+               </div>
+            </div>
+         </section>
+      </div>
+   </footer>
+   <script src="./index.js" defer></script>
+</html>
